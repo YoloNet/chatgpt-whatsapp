@@ -13,6 +13,6 @@ export const PREFIXES = [
 
 export const REMOVABLE_PREFIXES = ['bot']; // Prefixes that should be removed from the user's input before message is sent to the model
 
-export const OPENAI_MODEL = 'gpt-3.5-turbo-1106';
+export const OPENAI_MODEL = 'gpt-4o-mini';
 
 export const DEFAULT_SYSTEM_MESSAGE = `You are ChatGPT running as a WhatsApp bot developed by OpenAI; Answer as concisely as possible.`;
